@@ -248,11 +248,16 @@ form{
 
 input[type="text"], textarea, select{
     width: 100%;
+    display: block;
     height: 5rem;
     border: .2rem solid var(--black);
     border-radius: .9rem;
     margin-top: 2rem;
     padding: 1rem 1rem;
+}
+
+textarea{
+    height: 15rem;
 }
 
 .box input[type="submit"]{
@@ -292,6 +297,79 @@ input[type="text"], textarea, select{
 .box2 .button{
     margin-top: 1rem;
     margin-left: 28%;
+}
+
+
+.team-wrapper{
+    margin-top: 6%;
+    background-color: var(--pink);
+    padding: 3rem 5rem;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+h1:hover{
+    color: #000;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.team .member{
+    background: #fff;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    width: 30rem;
+    padding: 2rem;
+    line-height: 1.5rem;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.team .member:hover{
+    padding: 3rem;
+}
+
+.team .member h3{
+    font-size: 1.5rem;
+    margin: 2rem;
+
+}
+
+.team .member h3:hover{
+    color: var(--pink);
+}
+
+.team .member p{
+    font-size: 1.4rem;
+}
+
+.team .member p.ms{
+    color: var(--pink);
+    font-size: 1.25rem;
+    margin: .6rem 0;
+    font-weight: bold;
+}
+
+.team .member .team-img img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.team .member .team-img img:hover{
+    width: 15rem;
+    height: 15rem;
 }
 
 
